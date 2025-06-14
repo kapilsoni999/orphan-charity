@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support Orphan Children | [Your Charity Name Here]</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      height: 100vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    header a.button {
+      background: #e63946;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .impact {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      flex: 1 1 200px;
+      background: white;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button.submit {
+      background-color: #1d3557;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .testimonials {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .testimonial {
+      background: #ffffff;
+      padding: 20px;
+      border-left: 4px solid #457b9d;
+      border-radius: 5px;
+    }
+
+    footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .impact {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Help Give Hope to Orphaned Children</h1>
+    <p>Every child deserves a loving home, food, and education. Your support changes lives.</p>
+    <a href="#donate" class="button">Donate Now</a>
+  </header>
+
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>We are dedicated to improving the lives of orphaned and vulnerable children through sustainable support systems, ensuring they receive love, education, and healthcare. Your donation directly impacts these children’s futures.</p>
+    <p>With your support, we provide food, shelter, clothing, and opportunities to thrive. Join us in making a real difference in the lives of these children.</p>
+  </section>
+
+  <section id="impact">
+    <h2>Our Impact</h2>
+    <div class="impact">
+      <div class="card">
+        <h3>??? Food & Shelter</h3>
+        <p>Safe housing and daily nutrition for every child.</p>
+      </div>
+      <div class="card">
+        <h3>?? Education Support</h3>
+        <p>Access to quality education and school supplies.</p>
+      </div>
+      <div class="card">
+        <h3>?? Medical Care</h3>
+        <p>Regular health checkups and medical aid.</p>
+      </div>
+      <div class="card">
+        <h3>?? Emotional Care</h3>
+        <p>Love, guidance, and mentoring to heal and grow.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="donate">
+    <h2>Make a Donation</h2>
+    <form action="https://www.razorpay.com/payment-link-placeholder" method="POST">
+      <!-- Replace with your Razorpay link -->
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div class="form-group">
+        <label for="amount">Donation Amount (INR)</label>
+        <input type="number" name="amount" id="amount" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message (optional)</label>
+        <textarea name="message" id="message" rows="4"></textarea>
+      </div>
+      <button type="submit" class="submit">Proceed to Donate</button>
+    </form>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Supporters Say</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        “Donating here gave me a sense of fulfillment. I can see the change I’m making.”
+        <br><strong>- Rajiv, Volunteer</strong>
+      </div>
+      <div class="testimonial">
+        “Their dedication is real. I’ve visited the orphanage and it’s full of joy and love.”
+        <br><strong>- Priya, Donor</strong>
+      </div>
+      <div class="testimonial">
+        “This organization changed my life. I’m now studying in college thanks to their help.”
+        <br><strong>- Ramesh, Former Beneficiary</strong>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact Us:</p>
+    <p><!-- Replace with your address -->Shubhash Nagar, Sagar, India</p>
+    <p><!-- Replace with your phone -->Phone: +91-9098681615</p>
+    <p><!-- Replace with your email -->Email: support@yourcharity.org</p>
+    <p>
+      <!-- Replace with actual social links -->
+      <a href="#" style="color:white;">Facebook</a> | 
+      <a href="#" style="color:white;">Instagram</a> | 
+      <a href="#" style="color:white;">Twitter</a>
+    </p>
+    <p>© 2025 Your Charity. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
